@@ -1,0 +1,85 @@
+.cont{
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 20px;
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inp{
+  display: flex;
+  width: 80%;
+  background-color: aquamarine ;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.inp button{
+  background-color:aquamarine ;
+  border: none;
+  padding: 10px
+}
+.inp button:hover{
+  cursor: pointer;
+}
+.searchInput {
+  border: none;
+  width: 85%;
+  margin-left: 11px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+.bot{
+  
+}
+.task{
+  display: flex;
+  width: 80%;
+    /* background-color: blueviolet; */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.task span{
+  color: white;
+}
+.butt button{
+/* margin-left: 30px; */
+background: transparent;
+padding: 5px;
+
+color: white;
+border: white solid 2px;
+}
+.butt button:hover{
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.butt{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+
+
+
+.back{
+  background:rgb(225, 169, 223) ;
+  height :100vh ;
+}
+.ttask{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
