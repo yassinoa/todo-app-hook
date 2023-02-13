@@ -1,10 +1,11 @@
 
 import React from 'react'
 import CardTask from '../cardTask/CardTask'
-const Task = ({tab ,valid,supp}) => {
+const Task = () => {
+  
   return (
     <div className='ttask'>
-         <CardTask tab={tab} valid={valid} supp={supp} />
+         <CardTask />
     </div> 
   )
 }
